@@ -1,0 +1,19 @@
+[package]
+name = "eproj-core"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Core primitives and operations for coordinate reference system transformations."
+
+
+[dependencies]
+thiserror = { workspace = true }
+nalgebra = { workspace = true }
+rayon = { workspace = true }
+
+# proj = { workspace = true }
+proj-sys = { workspace = true, features = ["bundled_proj"] }
+num-traits = { workspace = true }
+libc = { workspace = true }
