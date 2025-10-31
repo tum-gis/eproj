@@ -9,4 +9,4 @@ description = "Library for coordinate reference system transformations."
 
 
 [dependencies]
-eproj-core = { version = "0.0.1-alpha.8", path = "../eproj-core" }
+eproj-core = { version = "0.0.1-alpha.9", path = "../eproj-core" }
